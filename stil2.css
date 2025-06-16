@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4
+}
+
+header {
+    text-align: center;
+}
+
+h1, h2, h3 {
+    color: #FFFFFF;
+    padding: 10px;
+    background-color: #7a7e99;
+}
+
+img {
+  opacity: 0.5;
+}
+
+img:hover {
+  opacity: 1.0;
+}
+
+ul {
+    padding:20px;
+    margin-left: auto;
+    margin-right:auto;
+    width: 300px;
+    }
+
+li {	display:inline;
+    background-color: #7a7e99;
+    padding:5px;
+    border: 2px solid #585c7b;
+  }
+
+li:active {background-color: #585c7b;}
+
+li a {	color:white;
+    font-family: "CabinSketch", sans-serif;
+    text-transform: uppercase;
+    }
+
+li a:link {text-decoration:none;}
+li a:hover {text-decoration:underline;}
