@@ -1,0 +1,70 @@
+@font-face {
+  font-family: "IvaRadic";
+  src:url("IvaRadic.ttf");
+}
+
+ul {
+    padding:20px;
+    margin-left: auto;
+    margin-right:auto;
+    width: 300px;
+    }
+
+li {	display:inline;
+    background-color: #7a7e99;
+    padding:15px;
+    border: 2px solid #585c7b;
+  }
+
+li:active {background-color: #585c7b;}
+
+li a {	color:white;
+    font-family: "CabinSketch", sans-serif;
+    text-transform: uppercase;
+    }
+
+li a:link {text-decoration:none;}
+li a:hover {text-decoration:underline;}
+
+body {
+    font-family: sans-serif;
+    background-image: url("slike/pozadinaa.jpg");
+    background-size: cover;
+}
+
+header {
+    text-align: center;
+}
+
+header img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 1px;
+}
+
+section {
+    margin: 5px;
+    text-align: center;
+    background-color: #FFFFFF;
+    opacity: 90%;
+    padding: 15px;
+}
+
+h1 {
+  font-family: "IvaRadic";
+  src:url("IvaRadic.ttf");
+  color: #585c7b;
+  font-size: 60px;
+}
+
+h2 {
+    color: #000000;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+p {
+    color: #000000;
+    opacity: 100%;
+}
